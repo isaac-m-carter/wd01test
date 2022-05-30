@@ -39,8 +39,10 @@
                 <div class="input-button-wrapper">
                     <!-- Added "form" around "input" and "button" with id of "my-form" -->
                     <form id="my-form" action="">
-                        <input type="text" placeholder="Pluto is a planet!" data-item="item">
-                        <button onclick="submit()">add</button>                    
+                        <fieldset>
+                            <input type="text" placeholder="Pluto is a planet!" data-item="item">
+                            <button id="submit" type ="submit" onclick="submit">add</button>
+                        </fieldset>
                     </form>
                 </div>
                 <div class="unordered-list-wrapper">
