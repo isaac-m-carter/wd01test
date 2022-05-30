@@ -3,6 +3,8 @@ console.log("WD02 Javascript Assessment");
 
 // call function submit() when button is clicked
 function submit() {
+
+  handleForm();
   
   // get user input through html atribute data-item ="item" through window document querySelector, and assign to constant value
   const value = document.querySelector('[data-item="item"]').value;
