@@ -12,20 +12,22 @@ function submit() {
 
   // create a constant li (list) element
   const li = document.createElement("li");
-
+  
   // user input text = value and will print list in html
-  if(value.length !== 0) {
-    li.innerHTML = value;
+    if(value.length !== 0) {
+      li.innerHTML = value;
+    
+      // append child li to parent ul
+      ul.appendChild(li);
+    
+      // clear text in text box ready for next input
+      document.querySelector('[data-item="item"]').value = "";
+    }
   
-    // append child li to parent ul
-    ul.appendChild(li);
+    else
+      alert("Please enter a planet name");
   
-    // clear text in text box ready for next input
-    document.querySelector('[data-item="item"]').value = "";
-  }
-
-  else
-    alert("Please enter a planet name");
+  
 
 }
 
