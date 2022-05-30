@@ -26,9 +26,6 @@ function submit() {
   
     else
       alert("Please enter a planet name");
-  
-  
-
 }
 
 // define form as a variable via the id
