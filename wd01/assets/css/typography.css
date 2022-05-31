@@ -109,6 +109,9 @@ iframe {
   background-color: #234;
   justify-content: space-around;
   align-items: center;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
 }
 
 .footer-column {
